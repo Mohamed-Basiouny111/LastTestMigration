@@ -150,7 +150,6 @@ namespace ConsoleApp1
             //}
             #endregion
 
-
             #region Seperated Configuration 
             //typeof(Student).Assembly => return assemply name , can use any type like student or any type in assemply 
             //Console.WriteLine(typeof(Student).Assembly);

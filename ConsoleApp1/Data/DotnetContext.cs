@@ -59,7 +59,6 @@ namespace ConsoleApp1.Data
             #endregion
 
             #region use External Configuration
-
             //Apply Configuration to type alone 
             //modelBuilder.ApplyConfiguration<Student>(new StudentConfiguration());
             //modelBuilder.ApplyConfiguration<Employee>(new EmployeeConfiguration());
@@ -69,6 +68,7 @@ namespace ConsoleApp1.Data
             //typeof(Student).Assembly => return assemply name , can use any type like student or any type in assemply 
             //modelBuilder.ApplyConfigurationsFromAssembly(typeof(Student).Assembly);
             #endregion
+            
             base.OnModelCreating(modelBuilder);
         }
     }
